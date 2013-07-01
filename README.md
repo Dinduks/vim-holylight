@@ -18,6 +18,8 @@ The plugin calls the *bin/holylight-checker* program in order to get the current
 ambient light value.  
 Depending on the returned value it sets `background`'s value to `light` or `dark`.
 
+The binaries' source code can be found [here](https://gist.github.com/Dinduks/5899561).
+
 ## Customization
 If the setting that sets the background to light or dark doesn't suit you, you can
 easily change it.
