@@ -6,7 +6,7 @@ function! HolyLight()
   let exit_status = v:shell_error
 
   if (exit_status != 0)
-    echo "Holy Light: Failed to initialize the ambiant light sensor"
+    echo "Holy Light: Failed to initialize the ambient light sensor"
     return
   endif
 
