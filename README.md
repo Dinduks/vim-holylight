@@ -15,7 +15,7 @@ reload your Vim configuration (`source $MYVIMRC`).
 
 ## How does it work?
 The plugin calls the *bin/holylight-checker* program in order to get the current
-ambient light value.  
+ambient light value from the MacBook's sensor.  
 Depending on the returned value it sets `background`'s value to `light` or `dark`.
 
 The binaries' source code can be found [here](https://gist.github.com/Dinduks/5899561).
