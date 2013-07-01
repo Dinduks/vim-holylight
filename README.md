@@ -8,6 +8,11 @@ the `background` variable to `light`.
 Holy Light is a Vim plugin for MacBook users that sets that setting automatically
 each time a file or buffer is opened.
 
+## Installation
+Holy Light is [Pathogen-friendly](https://github.com/tpope/vim-pathogen).  
+You simply need to `git clone` the this repository in your *bundle* directory, and
+reload your Vim configuration (`source $MYVIMRC`).
+
 ## How does it work?
 The plugin calls the *bin/holylight-checker* program in order to get the current
 ambiant light value.  
