@@ -11,7 +11,7 @@ function! HolyLight()
   endif
 
   if !exists('g:holylight_threshold')
-    let g:holylight_threshold = 2000000
+    let g:holylight_threshold = 1000000
   endif
 
   if (brightness < g:holylight_threshold)
