@@ -15,8 +15,8 @@ reload your Vim configuration (`source $MYVIMRC`).
 
 ## How does it work?
 The plugin calls the *bin/holylight-checker* program in order to get the current
-ambiant light value.  
-Depending on the returned value it set `background`'s value to `light` or `dark`.
+ambient light value.  
+Depending on the returned value it sets `background`'s value to `light` or `dark`.
 
 ## Customization
 If the setting that sets the background to light or dark doesn't suit you, you can
