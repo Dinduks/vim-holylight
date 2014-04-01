@@ -1,5 +1,5 @@
 let g:holylight_checker_path = expand('<sfile>:p:h:h').'/bin/holylight-checker'
-au CursorHold,BufNewFile,BufRead *.* nested call HolyLight()
+au CursorHold,BufNewFile,BufRead,VimEnter * nested silent! call HolyLight()
 
 function! HolyLight()
   let brightness  = system(g:holylight_checker_path)
